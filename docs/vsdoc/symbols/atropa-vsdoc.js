@@ -6,6 +6,7 @@
 
     window.atropa = {
         /// <summary></summary>
+        /// <field name="customErrors" type="">Container for custom Errors.</field>
         /// <returns type="atropa"/>
                 
     };

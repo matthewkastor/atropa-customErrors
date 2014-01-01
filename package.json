@@ -1,6 +1,6 @@
 {
   "name": "atropa-customErrors",
-  "version": "2013.10.18",
+  "version": "2013.10.19",
   "description": "Custom error functions in JavaScript.",
   "main": "./src/atropa-customErrors.js",
   "directories": {

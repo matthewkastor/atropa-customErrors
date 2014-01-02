@@ -50,7 +50,6 @@ var atropa = require('atropa-header');
  *  Matthew Christopher Kastor-Inare III </a><br />
  *  ☭ Hial Atropa!! ☭
  * @namespace Container for custom Errors.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.customErrors">tests</a>
  */
 atropa.customErrors = {};
 

@@ -1,6 +1,6 @@
 {
   "name": "atropa-customErrors",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "Custom error functions in JavaScript.",
   "main": "./src/atropa-customErrors.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-customErrors.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-customErrors.js ./src/atropa-customErrors.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-customErrors/",
   "bugs": "https://github.com/matthewkastor/atropa-customErrors/issues",

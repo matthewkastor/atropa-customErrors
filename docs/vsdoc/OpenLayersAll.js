@@ -25,10 +25,14 @@
     
 
     window.atropa = {
-        /// <summary></summary>
-        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
-        /// <field name="customErrors" type="">Container for custom Errors.</field>
+        /// <summary>Container for all Glorious classes, functions, etc.</summary>
         /// <returns type="atropa"/>
+      
+        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
+        data : {}, 
+      
+        /// <field name="customErrors" type="">Container for custom Errors.</field>
+        customErrors : {}, 
                 
         supportCheck: function(className, errorMessage) {
             /// <summary>Checks whether this class has been marked as unsupported and throws an 
@@ -69,7 +73,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.customErrors = {
-        /// <summary></summary>
+        /// <summary>Container for custom Errors.</summary>
         /// <returns type="atropa.customErrors"/>
                 
     };
@@ -89,13 +93,14 @@
     window.atropa.customErrors = window.atropa.customErrors || {};
 
     window.atropa.customErrors.InvalidArgumentTypesError = function(message){
-        /// <summary></summary>
+        /// <summary>Invalid Argument Types Error</summary>
         /// <param name="message" type="String">Optional. The error message to send. Defaults to
         ///  &lt;code&gt;InvalidArgumentTypesError&lt;/code&gt;</param>
         /// <field name="name" type="">The name of the error. Tells the user what kind of custom
         /// error has been thrown.</field>
+        name : {}, 
         /// <field name="message" type="">The error message to send.</field>
-        /// <returns type="atropa.customErrors.InvalidArgumentTypesError"/>
+        message : {}
     };
 
     var $x = window.atropa.customErrors.InvalidArgumentTypesError;
@@ -115,7 +120,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.data = {
-        /// <summary></summary>
+        /// <summary>Container for gobal data related to the classes and functions.</summary>
         /// <returns type="atropa.data"/>
                 
     };
